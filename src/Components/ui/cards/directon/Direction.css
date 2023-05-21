@@ -1,0 +1,38 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 320px;
+    height: 250px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.Card:hover{
+    color: #529FD1;
+    filter: brightness(70%);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.Card>img{
+    width: 320px;
+    height: 250px;
+    border-radius: 12px;
+    filter: brightness(50%);
+}
+
+.CardText{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.CardText>p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}

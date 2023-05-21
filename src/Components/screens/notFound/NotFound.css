@@ -1,0 +1,18 @@
+.PageNotFound{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+    margin: auto;
+    height: 100svh;
+}
+
+.PageNotFound>h1>a{
+    color: red;
+    font-size: 28px;
+}
+
+.PageNotFoundTagA{
+    margin-left: 10px;
+}

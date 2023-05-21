@@ -1,0 +1,74 @@
+ul li{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+nav{
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.25);
+    width: 100%;
+    background-color: #fff;
+}
+
+.NavMenu{
+    max-width: 1860px;
+    min-width: 1400px;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.NavMenuLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.NavMenuText{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.NavMenuText li{
+    margin-right: 25px;
+}
+
+.NavMenuText li>a{
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-weight: 300;
+    color: black;
+}
+
+.NavMenuText li>a:hover{
+    color: #529FD1;
+}
+
+.ContainerAvatar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.ContainerAvatar>a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.ContainerAvatar>a:hover{
+    color: #529FD1;
+}

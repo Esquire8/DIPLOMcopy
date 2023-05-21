@@ -1,0 +1,19 @@
+.LoginInputs{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 260px;
+    margin-top: 53px;
+    gap: 15px;
+}
+
+.LoginBtnForgotPassword{
+    gap: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginBtnForgotPassword>a{
+    margin: auto;
+}

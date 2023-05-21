@@ -1,0 +1,22 @@
+.PopularCoursesSlider{
+    margin: auto;
+    width: 1400px;
+    position: relative;
+}
+
+.PopularCoursesTrack{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.PopularCoursesTrack::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+
+.PopularCoursesItem{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    transition: all 1s ease;
+}

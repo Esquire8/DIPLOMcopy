@@ -1,0 +1,45 @@
+.BlockNoPadding{
+    background: linear-gradient(136.11deg, #9CCBE9 63.88%, rgba(155, 166, 35, 0.63) 129.49%);
+    border-radius: 12px;
+    width: 1400px;
+    height: 659px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.MainHeading{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 100%;
+    color: #001140;
+}
+
+.MainBlock{
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MainBlockText{
+    width: 801px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Subtitle{
+    margin-top: 40px;
+}
+
+.Subtitle>p{
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+}
+
+.MainBlockImage{
+    position: relative;
+    left: 0;
+    bottom: 223px;
+}
